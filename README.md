@@ -7,3 +7,5 @@
 flask_app/modeling 디렉토리 내에 있는 model.py 파일을 실행하시면 자동으로 model.pkl 파일이 생성 됩니다.
 
 그 후에 flask run 을 하시면 되겠습니다.
+
+배포된 app의 링크는 https://popularitify.herokuapp.com/ 입니다.
