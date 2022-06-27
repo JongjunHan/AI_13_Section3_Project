@@ -1,0 +1,56 @@
+<!DOCTYPE html> 
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+        <title>Popularitify</title>
+    </head>
+
+    <body>
+
+    <center>
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+
+            <a class="navbar-brand" href="/">Checked Popularity Score</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/dashboard">Dashboard</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/information">Information</a>
+                </li>
+              </ul>
+            </div>
+        </nav>
+    
+        <br></br>
+        <h1 class="display-4" style="font-family:sans-serif; color: #000000;">각 수치 정보</h1>
+            <div align="center">
+                <br></br>
+                <p class="lead">음향성 : 얼마나 Acoustic 한지 (전자 악기의 사용이 적은 정도)</p><br></br>
+                <p class="lead">댄스 적합성 : 얼마나 춤추기에 적합한지</p><br></br>
+                <p class="lead">활동성 : Energy의 정도 (동적인 테마의 음악인가)</p><br></br>
+                <p class="lead">장조, 단조 : 맑고 부드러운가(장조) / 어둡고 칙칙한가(단조)</p><br></br>
+                <p class="lead">가사의 비중 : 66 을 기준으로 가사가 많은지 적은지를 나타냄</p><br></br>
+                <p class="lead">템포 : 전반적인 트랙의 BPM을 나타냄</p><br></br>
+                <p class="lead">음악의 길이 (초) : 음악의 러닝 타임</p>
+            </div>
+        <a class="btn btn-primary btn-lg" href="/song-data" role="button">Check Music Popularity</a>
+    
+    </center>
+
+    </body>
+</html>
